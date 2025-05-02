@@ -186,3 +186,57 @@ margin: 0;
     }
 
 }
+
+
+@media only screen and (width: 428px) and (height: 926px) and (-webkit-device-pixel-ratio: 3){
+
+    body{
+        background-color: hsl(275, 100%, 97%);
+        box-sizing: border-box;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400, 600, 700;
+        overflow: auto;
+        margin: 0;
+        }
+
+    .bgimg{
+        background-image: url('/assets/images/background-pattern-mobile.svg');
+        background-size: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        min-width: 375px;
+        height: 35vh;
+        z-index: -4;
+        position: absolute;
+        left: 0;
+        right: 0;
+        
+    }
+    
+    .main-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75vh;
+        min-width: 70vh ;
+    }
+
+    .btn0{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 1rem;
+        margin-top: 15vh;
+        text-decoration: none;
+    }
+
+
+}
