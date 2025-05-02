@@ -1,0 +1,188 @@
+body{
+background-color: hsl(275, 100%, 97%);
+box-sizing: border-box;
+font-family: "Work Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400, 600, 700;
+overflow: hidden;
+margin: 0;
+}
+
+
+
+.bgimg{
+    background-image: url('/assets/images/background-pattern-desktop.svg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    z-index: -4;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+
+
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 26vh;
+    
+
+
+}
+
+.main-card{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #fff;
+    width: 78vh;max-width: 100%;
+    height: fit-content;
+    max-height: 100%;
+    z-index: 3;
+    flex-direction: column;
+    border-radius: 2%;
+    box-shadow: 0px 25px 21px 25px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+.hading{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 3.5vh;
+    align-items: start;
+    gap: 4%;
+}
+.Ostar{
+    box-sizing: border-box;
+    margin-top: 6.5vh; 
+    width:5vh;
+    max-width: 100%;
+    height: auto;
+}
+
+.one{
+    font-size: 4rem;
+}
+.cardsson{
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+.infotoggle{
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+    
+}
+
+.toggle1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ftoggle{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-size: large;
+}
+.ftoggle:hover{
+    color: hsl(278, 72%, 50%);
+    cursor: pointer;
+}
+
+
+
+.btn0{
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+    margin-left: 19vh;
+    margin-right: 1vh;
+    box-sizing: border-box;
+}
+#bt2{
+   display: flex;
+   justify-content: end;
+   margin-left: 50vh; 
+}
+.son{
+    display: none;
+    line-height: 1.6;
+
+}
+.uno{
+    font-size: 1.2rem;
+    
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-top: 24vh;
+    text-decoration: none;
+}
+
+
+@media (max-width: 760px){
+
+    body{
+        background-color: hsl(275, 100%, 97%);
+        box-sizing: border-box;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400, 600, 700;
+        overflow: auto;
+        margin: 0;
+        }
+
+    .bgimg{
+        background-image: url('/assets/images/background-pattern-mobile.svg');
+        background-size: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        min-width: 375px;
+        height: 35vh;
+        z-index: -4;
+        position: absolute;
+        left: 0;
+        right: 0;
+        
+    }
+    
+    .main-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75vh;
+        min-width: 70vh ;
+    }
+
+    .btn0{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 1rem;
+        margin-top: 15vh;
+        text-decoration: none;
+    }
+
+}
